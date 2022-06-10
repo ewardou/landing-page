@@ -60,3 +60,17 @@ button{
     height: auto;
     border-radius: 10px;
 }
+
+/* Section three styling*/
+.three{
+    background-color: #E5E7EB;
+    padding:1rem;
+    display:flex;
+    justify-content: center;
+}
+.three figure{
+    width: 400px;
+}
+.three figcaption{
+    text-align: right;
+}
