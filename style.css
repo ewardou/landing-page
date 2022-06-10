@@ -37,12 +37,14 @@ li a{
     height: auto;
 }
 button{
-    background-color: blue;
+    background-color: rgb(0, 102, 204);
     font-size:1rem;
     font-weight: 700;
     padding: 0.5rem 1rem;
     border:0;
     border-radius: 15px;
+    color:white;
+    border:solid 2px white;
 }
 
 /*Section two styling*/
@@ -73,4 +75,26 @@ button{
 }
 .three figcaption{
     text-align: right;
+}
+
+/*Section four styling*/
+.four {
+    padding:1rem;
+    display: flex;
+    justify-content: center;
+}
+.four .container{
+    background-color: rgb(0, 102, 204);
+    width: 500px;
+    color: white;
+    border-radius: 15px;
+    padding:0.5rem;
+    display: flex;
+}
+
+/*Footer styling*/
+footer{
+    background-color: rgb(77, 219, 255);
+    display:flex;
+    justify-content: center;
 }
