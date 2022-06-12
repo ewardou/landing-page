@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
+/*General styling*/
 *{
     margin:0;
     padding:0;
@@ -12,9 +13,9 @@
     margin-right: auto;
 }
 section{
-    padding: 1.5rem 0;
+    padding: 3rem 0;
 }
-/*Header styling*/
+/*Header and footer styling*/
 header,
 footer {
     background-color: rgba(0, 0, 0, 0.699);
@@ -34,6 +35,10 @@ header ul{
 li a{
     text-decoration: none;
 }
+footer{
+    display:flex;
+    justify-content: center;
+}
 
 /*Section one styling*/
 .one{
@@ -42,8 +47,7 @@ li a{
 .one .container{
     display:flex;
     align-items: center;
-    justify-content: space-around;
-    gap:5%;
+    justify-content: center;
 }
 .one .container div *{
     margin-bottom: 0.5rem;
@@ -121,10 +125,4 @@ button{
     justify-content: center;
     gap:1rem;
     font-size:18px;
-}
-
-/*Footer styling*/
-footer{
-    display:flex;
-    justify-content: center;
 }
